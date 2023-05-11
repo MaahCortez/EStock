@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/grid.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="E-Stock">
+    <title>FORNECEDOR - CADASTRAR PRODUTO</title>
+  </head>
+<body>
+<header>
+<h1>Fornecedor - Cadastrar Produto</h1>
+</header>
+
+    <form action="ServletCadastrarProduto" method="get">
+        ID <input type= "number" name= "id" required/><br/>
+        Descrição <input type= "text" name= "descricao" required><br/>
+        Quantidade <input type= "number" name= "quantidade" required/><br/>
+        Data de Atualização<input type= "date" name= "dataAtualizacao" required/><br/>
+        Data de Validade<input type="date" name="dataValidade"/><br/>
+        Preço <input type="number" name="preco" required/><br/>
+        <input type="submit" value="enviar"/>
+    </form>
+</body>
+</html>
